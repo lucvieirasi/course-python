@@ -12,11 +12,10 @@
 # -Aspas duplas triplas ==> """Joaozinho"""
 
 # Exemplo de print atual 3.6
-print('Qual o seu nome?')
-nome = input()
+nome = input('Qual o seu nome?')
 print(f'Seja bem-vindo(a) {nome}')
-print('Qual a sua idade?')
-idade = input()
+
+idade = input('Qual sua idade?')
 print(f'A {nome} tem {idade} anos...')
 
 # Cast é a conversao de um tipo de dado para outro.
