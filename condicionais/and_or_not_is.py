@@ -12,7 +12,7 @@ Operadores binários:
 """
 ativo = True
 logado = True
-if ativo or logado:
+if ativo is True:
     print('Bem-vindo usuário!')
 else:
-    print('Voce precisa ativar sua conta, confira o seu email!')
+    print('Sua conta requer ativacao,verifique o seu email!')
