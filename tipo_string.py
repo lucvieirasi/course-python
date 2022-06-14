@@ -29,4 +29,7 @@ nome = 'Geek University'
 print(nome[0:4]) #Slice de string
 
 print(nome[5:15]) #Slice de string
+
 print(nome.split()[0])
+
+print(nome.split()[1])
